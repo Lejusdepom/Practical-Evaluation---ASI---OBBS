@@ -21,5 +21,5 @@ public class BorrowedList implements Serializable {
         }
     }
 
-    public List<Book> getBorrowedBooks() { return borrowedBooks;}
+    public List<Book> getBorrowedBooks() { return borrowedBooks; }
 }

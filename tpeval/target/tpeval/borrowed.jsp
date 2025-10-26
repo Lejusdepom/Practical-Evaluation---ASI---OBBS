@@ -37,6 +37,7 @@
 </c:if>
 
 <p><a href="catalog">Back to Catalog</a></p>
+<p><a href="checkout">See the Checkout page</a></p>
 
 </body>
 </html>

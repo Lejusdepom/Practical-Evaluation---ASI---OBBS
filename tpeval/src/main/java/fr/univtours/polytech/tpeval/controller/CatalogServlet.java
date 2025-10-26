@@ -18,7 +18,7 @@ public class CatalogServlet extends HttpServlet {
             books = new ArrayList<>();
             books.add(new Book("1234567890", "Java Programming", "John Doe", 3, "A guide to Java", "physical"));
             books.add(new Book("0987654321", "Web Development", "Jane Smith", 2, "Learn web basics", "online"));
-            books.add(new Book("1112131415", "Database Design", "Tom Brown", 1, "Relational DB concepts", "physical"));
+            books.add(new Book("0671496189", "Unity Basics", "Angeline Brocq", 1, "How to code a perfect game", "online"));
 
             getServletContext().setAttribute("books", books);
         }

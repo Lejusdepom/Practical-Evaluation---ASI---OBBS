@@ -7,7 +7,7 @@
 <body>
 <h2>Available Books</h2>
 
-<table border="1">
+<table border="1" cellpadding="5">
     <tr>
         <th>ISBN</th>
         <th>Title</th>
@@ -32,6 +32,8 @@
         </tr>
     </c:forEach>
 </table>
+
+<p><a href="borrowed">See the Borrowed books list</a></p>
 
 </body>
 </html>
